@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>WEBB</title>
+<title>Your Website Title</title>
+  <meta property="og:url"           content="http://www.your-domain.com/your-page.html" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Your Website Title" />
+  <meta property="og:description"   content="Your description" />
+  <meta property="og:image"         content="http://www.your-domain.com/path/image.jpg" />
+</head>
+<style type="text/css">
+ 	#share-buttons img 
+	{
+		width: 35 px;
+		padding: 5px;
+		border: 0;
+		box-shadow: 0;
+		display: inline;
+	}
+</style>
+<style>
+	
+	input[type=text] 
+	{
+		width: 130px;
+		box-sizing: border-box;
+		border: 2px solid #ccc;
+		border-radius: 4px;
+		font-size: 16px;
+		background-color: white;
+		background-image: url('searchicon.png');
+		background-position: 10px 10px; 
+		background-repeat: no-repeat;
+		padding: 12px 20px 12px 40px;
+		-webkit-transition: width 0.4s ease-in-out;
+		transition: width 0.4s ease-in-out;
+	}
+
+	input[type=text]:focus 
+	{
+    	width: 100%;
+	}
+	body
+	{
+		background-color:grey;
+	}
+	header
+	{
+		width: 1000px;
+		height: 40px;
+		margin:auto;
+		
+	}
+	nav
+	{
+		width: 1000px;
+		height: 50px;
+		margin:auto;
+		
+	}
+	section 
+	{
+		width: 1000px;
+		height: 400px;
+		margin:auto;
+		
+	}
+	#a
+	{
+		width: 100px;
+		height: 50px;
+		float: right;
+	}
+	#b
+	{
+		width: 700px;
+		height: 400px;
+		float: left;
+	}
+	#c
+	{
+		width: 250px;
+		height: 400px;
+		float: right;
+	}
+	footer
+	{
+		width: 1000px;
+		height: 90px;
+		margin: auto;
+		
+	}
+</style>
+<body>
+	<header> 
+	<img src="logo.jpg" width="150" height="70" alt=""/> </header>
+	<nav> 
+		<div id="a">
+			<button type="button" onClick="Fuck u"> Sign up</button>
+			</div>
+		<div id="a">
+			<button type="button" onClick="Fuck u"> Login</button>
+		</div>
+	</nav>
+	<nav>
+			<form>
+ 				<input type="text" name="search" placeholder="Search..">
+			</form>
+	</nav>
+	<section>
+	  <div id="b"> 
+	    <img src="poster.jpg" width="700" height="400" alt=""/> </div>
+	  <div id="c"> 
+		  <ul> Danh sách ca sĩ: </ul>
+		  <li> <img src="Justin-Bieber.png" width="35" height="40" alt="JB"/>   Justin Bieber</li>
+		  <li> <img src="taylor-swift-5.jpg" width="35" height="40" alt="TS"/>  Taylor Swift</li>
+		  <li> <img src="ed-sheeran-gettyimages-494227430_1600jpg.jpg" width="35" height="40" alt="ES"/>  Ed Sheeran</li>
+		  <li> <img src="Sunmi.png" width="35" height="40" alt="S"/>  Sunmi</li>
+		  <li> <img src="bts.jpg" width="35" height="40" alt="BTS"/> BTS</li>
+		  <li> <img src="Jaesuk.jpg" width="35" height=40 alt="JS"/> Yoo Jae Suk</li>
+		  <li> <img src="JoeJonas.jpg" width="35" height="40" alt="JJ"/> Joe Jonas & Jack Lawless</li>
+		</div>
+</section>
+	<footer> 
+		<a href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://simplesharebuttons.com">
+        <img src="https://simplesharebuttons.com/images/somacro/email.png" alt="Email" />
+		</a>
+		<a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+    	</a>
+		<a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+   		 </a>
+   		 <a href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank">
+        <img src="https://simplesharebuttons.com/images/somacro/google.png" alt="Google" />
+   		 </a>
+	</footer>
+	
+</body>
+</html>

@@ -95,7 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Themes\Theme\images\logo.jpg" />
-    <Content Include="App_Themes\Theme\images\poster.png" />
+    <Content Include="App_Themes\Theme\images\poster.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

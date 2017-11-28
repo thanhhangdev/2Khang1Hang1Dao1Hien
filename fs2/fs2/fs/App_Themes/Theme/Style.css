@@ -14,41 +14,7 @@ body{
 	margin: 0;
 
 }
-/*==Phan đầu==*/
-#dau{
-	padding-left: 100px;
-	left: 0;
-	width: 100%;
-	position: relative;/*--chữ lồng vào trong cột menu--*/
-}
-
-
-.row{
-	overflow: hidden;
-	margin: 1.5em auto;
-}
-
-.row .col{
-	float: left;
-	margin-left: 3em;
-}
-
-.row .col #logo{
-	padding-top: 40px;
-	margin-right: 4em;
-}
-.row .col #slogan{
-	color: #8997a0;
-	font-size: 1em;
-	padding-top: 10px;
-	margin-left: 3em;
-}
-
-.row .col :last-child{
-	float: right;
-	margin-right: 0.5em;
-
-}
+img.cangiua {display: block; margin-left: auto; margin-right: auto;margin-top: 2em;}
 
 
 .call-to-action{

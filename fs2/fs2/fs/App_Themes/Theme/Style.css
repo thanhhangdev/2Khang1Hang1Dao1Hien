@@ -1,0 +1,187 @@
+﻿/*==Style cơ bản trong website==*/
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: #F8F8F8;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    color: black;
+    line-height: 1.254;
+    margin: 0;
+}
+
+img.cangiua {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+
+.call-to-action {
+    text-align: center;
+}
+/*==Phan thân==*/
+input[type='text'] {
+    width: 400px;
+    height: 50px;
+    border: 1px solid red;
+    background-color: white;
+    font-family: Times;
+    font-size: 24px;
+    margin-left: 1em;
+}
+
+input[type='date'] {
+    width: 200px;
+    height: 40px;
+    border: 1px solid red;
+    background-color: white;
+    font-family: Times;
+    font-size: 24px;
+    margin-left: 1em;
+}
+
+input[type='number'] {
+    width: 100px;
+    height: 40px;
+    border: 1px solid red;
+    background-color: white;
+    font-family: Times;
+    font-size: 24px;
+    margin-left: 1em;
+}
+
+input[type='radio'] {
+    margin-left: 1em;
+}
+
+.row1 {
+    overflow: hidden;
+    margin: 3em auto;
+    font-size: 1.5em;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 40px;
+    border: 2px solid #ff0000;
+}
+
+    .row1 .col1 {
+        float: left;
+        margin-left: 3em;
+    }
+
+        .row1 .col1:last-child {
+            float: right;
+            margin-right: 3em;
+        }
+
+        .row1 .col1 p {
+            font-family: Times;
+            font-size: 24px;
+            color: red;
+        }
+
+#wrapper 
+{
+    width: 1400px;
+    height: 700px;
+    margin: auto;
+}
+
+#banner 
+{
+    background-image: url(images/2.jpg);
+    width: 1400px;
+    height: 500px;
+    margin: auto;
+}
+
+#menu 
+{
+    font-weight: bold;
+    width: 700px;
+    height: 50px;
+    margin-top: 2px;
+}
+
+#leftsidebar 
+{
+    width: 700px;
+    min-height: 300px;
+    float: left;
+}
+
+#rightsidebar 
+{
+    width: 700px;
+    height: 300px;
+    background-color: #0094ff;
+    float: right;
+}
+
+#content {
+    width: 1920px;
+    min-height: 1080px;
+    background-color: #F8F8F8;
+    float: left;
+}
+
+#footer {
+    background-color: #808080;
+    background-repeat: repeat;
+    height: 50px;
+    width: 1620px;
+    line-height: 50px;
+    text-align: center;
+    margin: 5px;
+    font: italic bold 35px;
+    float: left;
+}
+
+input[type='password'] {
+    width: 400px;
+    height: 50px;
+    border: 1px solid red;
+    background-color: white;
+    font-family: Times;
+    font-size: 24px;
+    margin-left: 1em;
+}
+button {
+  border: none;
+  background: #1abc9c;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 6px;
+  width: 200px;
+  color: white;
+  margin-left: 25px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+input:focus, input:valid {
+  box-shadow: none;
+  outline: none;
+  background-position: 0 0;
+}
+input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder {
+  color: #1abc9c;
+  font-size: 11px;
+  transform: translateY(-20px);
+  visibility: visible !important;
+}
+#dangnhap{
+   border-width: 1px;
+   border-style: solid;
+   width: 600px;
+   height: 350px;
+   background-color:antiquewhite;
+}

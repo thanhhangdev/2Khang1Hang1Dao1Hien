@@ -6,8 +6,8 @@
 
 <html>
 <head runat="server">
-    <title></title>
-    <link rel="stylesheet" type ="text/css" href="App_Themes/Theme/Style.css"/>
+    <title>FSTicket</title>
+    <link rel="stylesheet" type="text/css" href="App_Themes/Theme/Style1.css" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -18,19 +18,25 @@
             <div id="menu">
                 <uc1:wucMenuNgang ID="wucMenuNgang1" runat="server" />
             </div>
+             <div class="call-to-action">
+		        <h3>Âm nhạc kết nối chúng ta lại với nhau.</h3>
+		        <p>Hãy nhanh tay đăng kí và nhận ngay tấm vé đưa bạn đến với những trải nghiệm âm nhạc tuyệt vời.</p>
+             </div>
             <div id="sidebar">
                 <div id="leftsidebar">
-                   <iframe width="560" height="315" src="https://www.youtube.com/embed/DYNrij6I-A4" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                   <iframe width="550" height="400" src="https://www.youtube.com/embed/DYNrij6I-A4" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
                 </div>
-                <div id="rightsidebar"></div>
-            </div>
-        </div>
+                <div id="rightsidebar">
+                    <h1> Thông tin về buổi biểu diễn</h1>
+                </div>
          <div id="content">
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
              </div>
+                 </div>
             <div id="footer">
-                Design by Những chú chim đồi truỵ &copy;
+                Design by Nhóm 17 FAMOUSOON &copy;
             </div>
+        </div>
     </form>
 </body>
 </html>

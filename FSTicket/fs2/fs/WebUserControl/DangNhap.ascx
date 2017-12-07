@@ -1,5 +1,4 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="DangNhap.ascx.cs" Inherits="fs.WebUserControl.wucDangNhap" %>
-
     <center>
         <div id="dangnhap">
 	        <form action="Link.html" method="post" name="dang nhap">

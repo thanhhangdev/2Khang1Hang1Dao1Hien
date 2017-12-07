@@ -125,6 +125,7 @@
     <Content Include="App_Themes\Theme\images\rsz_poster.png" />
     <Content Include="App_Themes\Theme\images\Sunmi.png" />
     <Content Include="App_Themes\Theme\images\taylor-swift-5.jpg" />
+    <Content Include="App_Themes\Theme\Style1.css" />
     <Content Include="dangKy.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="fShop.aspx" />
